@@ -1,0 +1,60 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.search-btn{
+  border-radius: 20%;
+  padding: 3px;
+  font-weight: bold;
+
+}
+.btn{
+  padding: 2px;
+  background-color: #d5aeed;
+  border: 2px double rgb(60, 0, 128);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #7400b3;
+  transform: scale(1.05);
+  color: white;
+  font-weight: bolder;
+}
+
+table {
+  margin: 10px;
+  border: 1px solid rgb(11, 0, 128);
+}
+th {
+  border: 1px solid black;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+tr,
+td {
+  border: 1px dashed blueviolet;
+}
+input {
+  width: 80px;
+}

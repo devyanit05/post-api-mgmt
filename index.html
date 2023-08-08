@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./JS/utils.js"></script>
+    <script src="./JS/main.js"></script>
+  </head>
+  <body class="container" onload="loader()">
+    <h1 class="title">Post Managing Website</h1>
+    <hr>
+    <p>
+      This webite gets all the post from the api, and arrange the content in
+      form of table having coloumns
+    </p>
+    <input class="btn" type="button" onclick="tableFromJson()" value="Show Table" />
+    <input class="btn" type="button" onclick="loader()" value="Hide Table" />
+    <p id="showData"></p>
+    <p>
+      Enter the ID to search:
+      <input type="number" name="id" id="textID" />
+      <button class="search-btn" onclick="findID()">Search</button>
+    </p>
+    <div id="printDiv"></div>
+  </body>
+</html>
